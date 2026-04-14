@@ -40,3 +40,25 @@ Tras el primer arranque, se establece la contraseña de la cuenta de **Administr
 ### Paso 2.5: Primer Inicio de Sesión
 Verificación del escritorio de Windows Server 2022 y apertura automática del Administrador del Servidor para comenzar las tareas de configuración.
 ![Primer Inicio](02-instalacion-sistema-operativo/12-primer-inicio-sesion.png)
+
+
+---
+
+## 📂 Fase 03: Instalación de Guest Additions
+Las *Guest Additions* de VirtualBox son esenciales para optimizar el rendimiento del servidor virtual, permitiendo una mejor resolución de pantalla y el uso de funciones compartidas.
+
+### Paso 3.1: Montaje de la imagen de CD
+Se utiliza la opción del menú de VirtualBox para insertar el disco virtual de las Guest Additions en la unidad óptica del servidor.
+![Insertar Imagen](03-instalacion-guest-additions/01-insertar-imagen-guest-additions.png)
+
+### Paso 3.2: Ejecución del instalador
+Se accede a la unidad de CD montada y se ejecuta el asistente de instalación para los drivers de Windows.
+![Asistente Inicio](03-instalacion-guest-additions/04-asistente-instalacion-inicio.png)
+
+### Paso 3.3: Instalación de controladores
+El asistente instala los controladores de vídeo, ratón y sistema necesarios para la integración con el host.
+![Progreso Instalación](03-instalacion-guest-additions/07-progreso-instalacion-drivers.png)
+
+### Paso 3.4: Finalización y Reinicio
+Una vez completada la instalación, se requiere un reinicio del servidor para que los nuevos controladores se carguen correctamente.
+![Reinicio Finalización](03-instalacion-guest-additions/08-finalizacion-y-reinicion.png)
