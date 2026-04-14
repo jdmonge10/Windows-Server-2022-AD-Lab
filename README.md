@@ -85,3 +85,21 @@ Se configura la siguiente dirección estática para asegurar la persistencia del
 * **Puerta de enlace:** 192.168.1.1
 * **DNS:** Se establece inicialmente la IP local.
 ![Configuracion Final IPv4](04-configuracion-red/06-configuracion-final-ipv4.png)
+
+---
+
+## 📂 Fase 05: Identidad del Servidor (Hostname)
+Antes de promocionar el servidor a Controlador de Dominio, es una buena práctica asignar un nombre descriptivo y estandarizado al equipo.
+
+### Paso 5.1: Verificación del nombre actual
+Se accede a las propiedades del sistema para identificar el nombre aleatorio asignado por Windows durante la instalación.
+![Nombre Actual](05-identidad-del-servidor/01-nombre-actual-sistema.png)
+
+### Paso 5.2: Cambio de nombre a DC1
+Se modifica el nombre del equipo a **DC1** (Domain Controller 1), facilitando su identificación en la red.
+![Asignación DC1](05-identidad-del-servidor/03-asignacion-nombre-dc1.png)
+
+### Paso 5.3: Reinicio del sistema
+Para que el cambio de nombre sea efectivo, se procede con el reinicio obligatorio del servidor.
+![Confirmación Reinicio](05-identidad-del-servidor/04-confirmacion-reinicio-nombre.png)
+
