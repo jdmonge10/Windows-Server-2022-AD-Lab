@@ -125,3 +125,30 @@ Se verifican las características adicionales, como las herramientas de administ
 Se inicia la instalación de los binarios. Al finalizar, el sistema indica que la instalación ha sido correcta pero que queda pendiente la promoción del servidor a controlador.
 ![Instalación Finalizada](06-instalacion-active-directory/11-instalacion-finalizada-promocion-pendiente.png)
 
+
+--- 
+
+
+## 📂 Fase 07: Promoción a Controlador de Dominio
+Esta es la fase crítica donde el servidor se convierte en el nodo central del bosque, configurando la base de datos de Active Directory y el servicio DNS.
+
+### Paso 7.1: Configuración de Implementación
+Se selecciona la operación de despliegue **"Agregar un nuevo bosque"** y se define el Root Domain Name como `nombre_empresa.local`.
+![Configuración Bosque](07-promocion-controlador-dominio/02-configuracion-implementacion-nuevo-bosque.png)
+
+### Paso 7.2: Opciones del Controlador y DSRM
+Se establecen los niveles funcionales del bosque y del dominio. Se configura la contraseña del Modo de Restauración de Servicios de Directorio (DSRM), vital para recuperaciones de emergencia.
+![Niveles y DSRM](07-promocion-controlador-dominio/03-niveles-funcionales-y-contrasenas-dsrm.png)
+
+### Paso 7.3: Nombre NetBIOS y Rutas
+El sistema valida el nombre NetBIOS (`NOMBRE_EMPRESA`) y se confirman las rutas para la base de datos **NTDS**, los registros de transacciones y el volumen **SYSVOL**.
+![Rutas NTDS SYSVOL](07-promocion-controlador-dominio/06-ubicacion-archivos-ntds-sysvol.png)
+
+### Paso 7.4: Validación de Requisitos Previos
+El asistente realiza una comprobación integral. Al superar todas las pruebas, se obtiene el check verde que permite iniciar la instalación definitiva.
+![Exito Requisitos](07-promocion-controlador-dominio/08-exito-comprobacion-requisitos.png)
+
+### Paso 7.5: Progreso y Reinicio Automático
+Se inicia la promoción. Al finalizar, el servidor fuerza un reinicio para aplicar los cambios de seguridad y levantar los servicios de dominio.
+![Confirmación Reinicio](07-promocion-controlador-dominio/10-confirmacion-reinicion-post-promocion.png)
+
