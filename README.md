@@ -152,3 +152,18 @@ El asistente realiza una comprobación integral. Al superar todas las pruebas, s
 Se inicia la promoción. Al finalizar, el servidor fuerza un reinicio para aplicar los cambios de seguridad y levantar los servicios de dominio.
 ![Confirmación Reinicio](07-promocion-controlador-dominio/10-confirmacion-reinicio-post-promocion.png)
 
+
+---
+
+## 📂 Fase 08: Verificación Final del Dominio
+Tras el reinicio, se realizan las comprobaciones finales para asegurar que el Active Directory está operando correctamente y que el servidor ha asumido su rol de controlador.
+
+### Paso 8.1: Inicio de Sesión en el Dominio
+Se verifica que la pantalla de inicio de sesión muestra el nombre del dominio (`NOMBRE_EMPRESA\Administrador`). Esto confirma que la base de datos de seguridad está activa y permitiendo autenticaciones.
+![Login Exitoso](08-verificacion-final-dominio/01-login-exitoso-en-dominio.png)
+
+---
+
+## 🏆 Conclusión
+El laboratorio se ha completado con éxito. Hemos pasado de una máquina virtual vacía a un **Controlador de Dominio funcional** en Windows Server 2022, cumpliendo con todos los requisitos de red, identidad y seguridad necesarios para un entorno empresarial.
+
