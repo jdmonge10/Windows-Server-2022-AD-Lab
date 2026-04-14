@@ -150,5 +150,5 @@ El asistente realiza una comprobación integral. Al superar todas las pruebas, s
 
 ### Paso 7.5: Progreso y Reinicio Automático
 Se inicia la promoción. Al finalizar, el servidor fuerza un reinicio para aplicar los cambios de seguridad y levantar los servicios de dominio.
-![Confirmación Reinicio](07-promocion-controlador-dominio/10-confirmacion-reinicion-post-promocion.png)
+![Confirmación Reinicio](07-promocion-controlador-dominio/10-confirmacion-reinicio-post-promocion.png)
 
