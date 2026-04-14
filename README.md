@@ -15,3 +15,12 @@ Se configura una máquina virtual con los siguientes parámetros técnicos:
 * **Red:** Modo Adaptador Puente para integración en la LAN.
 
 ![Configuración de hardware virtual](01-configuracion-virtualbox/01-configuracion-virtualbox.png)
+
+---
+
+## 📂 Fase 02: Instalación de Windows Server 2022
+Se procede con la instalación del sistema operativo base siguiendo los estándares de Microsoft.
+
+### Paso 2.1: Selección de la Versión
+Para este laboratorio se instala **Windows Server 2022 Standard (Experiencia de escritorio)**. Esta versión permite la gestión mediante interfaz gráfica, facilitando la administración inicial.
+![Proceso de instalación](02-instalacion-so/sustituye_por_nombre_real.png)
