@@ -62,3 +62,26 @@ El asistente instala los controladores de vídeo, ratón y sistema necesarios pa
 ### Paso 3.4: Finalización y Reinicio
 Una vez completada la instalación, se requiere un reinicio del servidor para que los nuevos controladores se carguen correctamente.
 ![Reinicio Finalización](03-instalacion-guest-additions/08-finalizacion-y-reinicio.png)
+
+
+
+---
+
+## 📂 Fase 04: Configuración de Red (IP Estática)
+Para que un Controlador de Dominio funcione correctamente, debe tener una dirección IP fija. Esto evita que los clientes pierdan la conexión con los servicios de autenticación y DNS.
+
+### Paso 4.1: Acceso a las conexiones de red
+Se accede al Centro de redes y recursos compartidos para gestionar el adaptador Ethernet virtual.
+![Acceso Red](04-configuracion-red/01-acceso-configuracion-red.png)
+
+### Paso 4.2: Propiedades de IPv4
+Dentro de las propiedades del adaptador, se selecciona el protocolo **Internet Protocol Version 4 (TCP/IPv4)** para su edición.
+![Seleccion IPv4](04-configuracion-red/05-seleccion-ipv4.png)
+
+### Paso 4.3: Asignación de parámetros técnicos
+Se configura la siguiente dirección estática para asegurar la persistencia del servidor en la red:
+* **Dirección IP:** 192.168.1.3
+* **Máscara de subred:** 255.255.255.0
+* **Puerta de enlace:** 192.168.1.1
+* **DNS:** Se establece inicialmente la IP local.
+![Configuracion Final IPv4](04-configuracion-red/06-configuracion-final-ipv4.png)
