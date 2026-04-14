@@ -35,7 +35,7 @@ Se realiza una instalación de tipo "Personalizada" para gestionar las particion
 
 ### Paso 2.4: Configuración de Seguridad Inicial
 Tras el primer arranque, se establece la contraseña de la cuenta de **Administrador**. Esta cuenta será, posteriormente, la que tenga privilegios totales sobre el dominio.
-![Password Administrador](02-instalacion-sistema-operativo/10-password-administrator.png)
+![Password Administrador](02-instalacion-sistema-operativo/10-password-administrador.png)
 
 ### Paso 2.5: Primer Inicio de Sesión
 Verificación del escritorio de Windows Server 2022 y apertura automática del Administrador del Servidor para comenzar las tareas de configuración.
