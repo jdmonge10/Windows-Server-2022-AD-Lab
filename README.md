@@ -61,4 +61,4 @@ El asistente instala los controladores de vídeo, ratón y sistema necesarios pa
 
 ### Paso 3.4: Finalización y Reinicio
 Una vez completada la instalación, se requiere un reinicio del servidor para que los nuevos controladores se carguen correctamente.
-![Reinicio Finalización](03-instalacion-guest-additions/08-finalizacion-y-reinicion.png)
+![Reinicio Finalización](03-instalacion-guest-additions/08-finalizacion-y-reinicio.png)
