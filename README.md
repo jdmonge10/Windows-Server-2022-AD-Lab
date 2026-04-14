@@ -167,3 +167,28 @@ Se verifica que la pantalla de inicio de sesión muestra el nombre del dominio (
 ## 🏆 Conclusión
 El laboratorio se ha completado con éxito. Hemos pasado de una máquina virtual vacía a un **Controlador de Dominio funcional** en Windows Server 2022, cumpliendo con todos los requisitos de red, identidad y seguridad necesarios para un entorno empresarial.
 
+
+---
+
+## 🛠️ Especificaciones Técnicas
+Para asegurar la replicabilidad de este laboratorio, se detallan las versiones y recursos utilizados:
+* **Hipervisor:** Oracle VirtualBox 7.x
+* **Sistema Operativo:** Windows Server 2022 Standard (LTSC)
+* **Recursos VM:** 4GB RAM | 2 vCPUs | 50GB VDI (Dinámico)
+* **Rol Principal:** Active Directory Domain Services (AD DS)
+
+---
+
+## 🧠 Lecciones Aprendidas (Troubleshooting)
+Durante el despliegue se identificaron puntos críticos que garantizan el éxito de la infraestructura:
+* **Persistencia de Red:** Se validó que sin una **IP Estática**, el servicio DNS no puede resolver las consultas de los clientes del dominio.
+* **Orden de Configuración:** Es imperativo renombrar el servidor (`DC1`) **antes** de la promoción, ya que el cambio de nombre posterior a la creación del dominio es una tarea compleja y no recomendada.
+* **Gestión de Erratas:** Se comprendió la importancia de una nomenclatura de archivos coherente para la documentación técnica automatizada.
+
+---
+
+## 🚀 Hoja de Ruta (Próximos Pasos)
+Este proyecto es la base para futuras implementaciones de administración de sistemas:
+- [ ] **Fase 09:** Creación de Unidades Organizativas (OU) y Usuarios.
+- [ ] **Fase 10:** Unión de un equipo cliente (Windows 10/11) al dominio.
+- [ ] **Fase 11:** Aplicación de Directivas de Grupo (GPO) para seguridad de escritorio.
