@@ -111,7 +111,7 @@ En esta fase se preparan los binarios del sistema para convertir el servidor en 
 
 ### Paso 6.1: Inicio del asistente
 Se accede al asistente para agregar roles, asegurando que el servidor de destino sea **DC1**.
-![Acceso Asistente](06-instalacion-active-directory/01-accreso-asistente-roles.png)
+![Acceso Asistente](06-instalacion-active-directory/01-acceso-asistente-roles.png)
 
 ### Paso 6.2: Selección del Rol
 Se marca la casilla **Servicios de dominio de Active Directory (AD DS)**. El sistema solicitará automáticamente la instalación de las herramientas de administración necesarias.
