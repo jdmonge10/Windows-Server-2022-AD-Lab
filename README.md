@@ -103,3 +103,25 @@ Se modifica el nombre del equipo a **DC1** (Domain Controller 1), facilitando su
 Para que el cambio de nombre sea efectivo, se procede con el reinicio obligatorio del servidor.
 ![Confirmación Reinicio](05-identidad-del-servidor/04-confirmacion-reinicio-nombre.png)
 
+
+---
+
+## 📂 Fase 06: Instalación del Rol AD DS
+En esta fase se preparan los binarios del sistema para convertir el servidor en un Controlador de Dominio. Se utiliza el asistente para agregar roles y características del Administrador del Servidor.
+
+### Paso 6.1: Inicio del asistente
+Se accede al asistente para agregar roles, asegurando que el servidor de destino sea **DC1**.
+![Acceso Asistente](06-instalacion-active-directory/01-accreso-asistente-roles.png)
+
+### Paso 6.2: Selección del Rol
+Se marca la casilla **Servicios de dominio de Active Directory (AD DS)**. El sistema solicitará automáticamente la instalación de las herramientas de administración necesarias.
+![Selección Rol AD DS](06-instalacion-active-directory/05-seleccion-rol-ad-ds.png)
+
+### Paso 6.3: Confirmación de características
+Se verifican las características adicionales, como las herramientas de administración remota de servidor (RSAT), esenciales para gestionar el dominio.
+![Características Requeridas](06-instalacion-active-directory/06-agregar-caracteristicas-requeridas.png)
+
+### Paso 6.4: Progreso y Finalización
+Se inicia la instalación de los binarios. Al finalizar, el sistema indica que la instalación ha sido correcta pero que queda pendiente la promoción del servidor a controlador.
+![Instalación Finalizada](06-instalacion-active-directory/11-instalacion-finalizada-promocion-pendiente.png)
+
