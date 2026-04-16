@@ -5,19 +5,18 @@ Este manual documenta el proceso técnico integral para crear un entorno de serv
 ---
 
 ## 📑 Índice de Contenidos
-* [🛠️ Especificaciones Técnicas](#️-especificaciones-técnicas)
-* [📂 Fase 01: Configuración de la Máquina Virtual (VirtualBox)](#-fase-01-configuración-de-la-máquina-virtual-virtualbox)
-* [📂 Fase 02: Instalación del Sistema Operativo](#-fase-02-instalación-del-sistema-operativo)
-* [📂 Fase 03: Instalación de Guest Additions](#-fase-03-instalación-de-guest-additions)
-* [📂 Fase 04: Configuración de Red](#-fase-04-configuración-de-red)
-* [📂 Fase 05: Identidad del Servidor](#-fase-05-identidad-del-servidor)
-* [📂 Fase 06: Instalación de Active Directory](#-fase-06-instalación-de-active-directory)
-* [📂 Fase 07: Promoción a Controlador de Dominio](#-fase-07-promoción-a-controlador-de-dominio)
-* [📂 Fase 08: Verificación Final del Dominio](#-fase-08-verificación-final-del-dominio)
-* [🏆 Conclusión Final](#-conclusión-final)
-* [🧠 Lecciones Aprendidas (Troubleshooting)](#-lecciones-aprendidas-troubleshooting)
-* [🚀 Hoja de Ruta (Próximos Pasos)](#-hoja-de-ruta-próximos-pasos)
-
+* [🛠️ Especificaciones Técnicas](#especificaciones)
+* [📂 Fase 01: Configuración de la Máquina Virtual (VirtualBox)](#fase01)
+* [📂 Fase 02: Instalación del Sistema Operativo](#fase02)
+* [📂 Fase 03: Instalación de Guest Additions](#fase03)
+* [📂 Fase 04: Configuración de Red](#fase04)
+* [📂 Fase 05: Identidad del Servidor](#fase05)
+* [📂 Fase 06: Instalación de Active Directory](#fase06)
+* [📂 Fase 07: Promoción a Controlador de Dominio](#fase07)
+* [📂 Fase 08: Verificación Final del Dominio](#fase08)
+* [🏆 Conclusión Final](#conclusion)
+* [🧠 Lecciones Aprendidas (Troubleshooting)](#lecciones)
+* [🚀 Hoja de Ruta (Próximos Pasos)](#hojaruta)
 
 ---
 
