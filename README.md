@@ -4,6 +4,19 @@ Este manual documenta el proceso técnico integral para crear un entorno de serv
 
 ---
 
+## 📑 Índice de Contenidos
+* [🛠️ Especificaciones Técnicas](#️-especificaciones-técnicas)
+* [📂 Fase 01: Preparación del Entorno](#-fase-01-preparación-del-entorno)
+* [📂 Fase 02: Instalación del Sistema](#-fase-02-instalación-del-sistema)
+* [📂 Fase 03: Configuración de Red y Conectividad](#-fase-03-configuración-de-red-y-conectividad)
+* [📂 Fase 04: Implementación de Roles y Servicios](#-fase-04-implementación-de-roles-y-servicios)
+* [📂 Fase 05: Pruebas de Funcionamiento y Verificación](#-fase-05-pruebas-de-funcionamiento-y-verificación)
+* [🏆 Conclusión Final](#-conclusión-final)
+* [🧠 Lecciones Aprendidas (Troubleshooting)](#-lecciones-aprendidas-troubleshooting)
+* [🚀 Hoja de Ruta (Próximos Pasos)](#-hoja-de-ruta-próximos-pasos)
+
+---
+
 ## 📂 Fase 01: Configuración de la Máquina Virtual (VirtualBox)
 El primer paso fundamental es preparar el hardware virtual donde se alojará nuestro servidor. Una asignación correcta de recursos garantiza la estabilidad de los servicios de identidad.
 
