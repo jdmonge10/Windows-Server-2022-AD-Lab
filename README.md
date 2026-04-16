@@ -20,6 +20,15 @@ Este manual documenta el proceso técnico integral para crear un entorno de serv
 
 ---
 
+## 🛠️ Especificaciones Técnicas
+Para asegurar la replicabilidad de este laboratorio, se detallan las versiones y recursos utilizados:
+* **Hipervisor:** Oracle VirtualBox 7.x
+* **Sistema Operativo:** Windows Server 2022 Standard (LTSC)
+* **Recursos VM:** 4GB RAM | 2 vCPUs | 50GB VDI (Dinámico)
+* **Rol Principal:** Active Directory Domain Services (AD DS)
+
+---
+
 ## 📂 Fase 01: Configuración de la Máquina Virtual (VirtualBox)
 El primer paso fundamental es preparar el hardware virtual donde se alojará nuestro servidor. Una asignación correcta de recursos garantiza la estabilidad de los servicios de identidad.
 
@@ -144,7 +153,6 @@ Se inicia la instalación de los binarios. Al finalizar, el sistema indica que l
 
 --- 
 
-
 ## 📂 Fase 07: Promoción a Controlador de Dominio
 Esta es la fase crítica donde el servidor se convierte en el nodo central del bosque, configurando la base de datos de Active Directory y el servicio DNS.
 
@@ -183,15 +191,6 @@ Se verifica que la pantalla de inicio de sesión muestra el nombre del dominio (
 ## 🏆 Conclusión
 El laboratorio se ha completado con éxito. Hemos pasado de una máquina virtual vacía a un **Controlador de Dominio funcional** en Windows Server 2022, cumpliendo con todos los requisitos de red, identidad y seguridad necesarios para un entorno empresarial.
 
-
----
-
-## 🛠️ Especificaciones Técnicas
-Para asegurar la replicabilidad de este laboratorio, se detallan las versiones y recursos utilizados:
-* **Hipervisor:** Oracle VirtualBox 7.x
-* **Sistema Operativo:** Windows Server 2022 Standard (LTSC)
-* **Recursos VM:** 4GB RAM | 2 vCPUs | 50GB VDI (Dinámico)
-* **Rol Principal:** Active Directory Domain Services (AD DS)
 
 ---
 
